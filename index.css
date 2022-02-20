@@ -1,0 +1,79 @@
+*{
+    font-family: 'Akaya Telivigala', cursive;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(33,147,176);
+    background: -moz-linear-gradient(180deg, rgba(33,147,176,1) 4%, rgba(109,213,237,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(33,147,176,1) 4%, rgba(109,213,237,1) 100%);
+    background: linear-gradient(180deg, rgba(33,147,176,1) 4%, rgba(109,213,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2193b0",endColorstr="#6dd5ed",GradientType=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;  
+    width: 95vw;   
+    overflow: hidden;
+}
+#animated_svg{
+    width: 25%;
+    border-radius: 18px;
+    height: 25%;
+    margin-bottom: 8px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h2{
+    color: #ffffff;
+    padding: 8px;
+    font-size: 25px;
+}
+#refresh_btn{
+    width: 2%;
+    border: none;
+    outline: none;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 99999;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+}
+.contestChild{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #6ac6df;
+    height: 200px;
+    display: flex;
+    padding: 18px;
+    margin-bottom: 8px;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 18px;
+}
+.contestChild p{
+    padding: 5px;
+    width: 250px;
+    color: white;
+    font-size: 15px;
+   font-weight: 500;
+}
+.contestChild button{
+    border-radius: 5px;
+    background-color: aqua;
+    padding: 8px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+.contestChild a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
